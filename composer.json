@@ -1,5 +1,5 @@
 {
-	"name": "devbackend/bb-webhooker",
+	"name": "devbackend/webhooker",
 	"description": "Set of handlers for BitBucket webhooks",
 	"minimum-stability": "stable",
 	"license": "MIT",

@@ -36,6 +36,6 @@ And create instance of webhook handler:
 ```php
 $webhookHandler = \Webhooker\PushWebhookHandler::init();
 
-$webHook    = $webhookHandler->getWebhook(); //return an object of interface PushWebhook
+$webHook    = $webhookHandler->getWebhook(); // return an object of interface PushWebhook
 $rawWebhook = $webhookHandler->getRaw();     // return raw, unparsed, json-encoded webhook string 
 ```
